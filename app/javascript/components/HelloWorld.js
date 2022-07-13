@@ -1,17 +1,8 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
 
-class HelloWorld extends React.Component {
-  render () {
-    return (
-      <React.Fragment>
-        Greeting: {this.props.greeting}
-      </React.Fragment>
-    );
-  }
+export default function HelloWorld(props) {
+  return (
+    <div>HelloWorld</div>
+  )
 }
 
-HelloWorld.propTypes = {
-  greeting: PropTypes.string
-};
-export default HelloWorld
